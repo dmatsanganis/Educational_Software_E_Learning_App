@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  background: lightblue;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #191970;
+  color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar h1 {
+  font-size: 22px;
+  text-align: center;
+  line-height: 70px;
+  background: royalblue;
+  user-select: none;
+  font-weight: bold;
+}
+
+.sidebar ul a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+ul li:hover a {
+  padding-left: 30px;
+  background: rgb(115, 141, 221);
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: white;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #191970;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  height: 50px;
+  width: 240px;
+}
+
+.openbtn:hover {
+  background-color: rgb(115, 141, 221);
+}
+
+#main {
+  transition: margin-left 0.5s;
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-width: 600px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .openbtn {
+    width: 100%;
+  }
+}
+
+.panel {
+  height: 100%;
+  background: lightblue;
+  color: #191970;
+  text-align: center;
+  flex: 1;
+  width: 100%;
+}
+
+.panel h1 {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  padding-top: 20px;
+}
+
+.panel p {
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.panel img {
+  box-sizing: border-box;
+  margin-top: 20px;
+  height: 500px;
+  border: 3px solid royalblue;
+}

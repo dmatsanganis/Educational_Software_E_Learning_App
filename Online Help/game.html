@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="sidebar" id="mySidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <h1>Ενότητες</h1>
+      <ul>
+        <li><a href="login.html">Σύνδεση</a></li>
+        <li><a href="register.html">Εγγραφή</a></li>
+        <li><a href="studentDashboard.html">Μενού μαθητή</a></li>
+        <li><a href="lessons.html">Θεωρία</a></li>
+        <li><a href="exercises.html">Ασκήσεις</a></li>
+        <li><a href="game.html">Παιχνίδι</a></li>
+        <li><a href="studentProfile.html">Προφίλ μαθητή</a></li>
+        <li><a href="teacherDashboard.html">Μενού καθηγητή</a></li>
+        <li><a href="progress.html">Πρόοδος μαθητή</a></li>
+        <li><a href="teacherProfile.html">Προφίλ καθηγητή</a></li>
+        <li><a href="exit.html">Έξοδος</a></li>
+      </ul>
+    </div>
+    <div class="main" id="main">
+      <button class="openbtn" onclick="openNav()">☰ Περιεχόμενα</button>
+      <div class="panel">
+        <h1>Online βοήθεια της εφαρμογής</h1>
+        <h1>Παιχνίδι</h1>
+        <p>
+          Για την εξάσκηση του μαθητή στην εφαρμογή, υπάρχει και ένα παιχνίδι
+          μέσα από το οποίο ο μαθητής καλείται να απαντήσει σε ερωτήσεις από όλα
+          τα κεφάλαια χωρίς να “φοβάται” ότι τα λάθη του θα τα δει ο καθηγητής.
+        </p>
+        <p>
+          Ειδικότερα, με αυτό τον τρόπο ο μαθητής θα εξασκείται σε ένα πιο
+          φιλικό περιβάλλον και θα δοκιμάζει τις γνώσεις του, ενώ ταυτόχρονα θα
+          μπορεί να συγκρίνει το σκορ του (όπου μόνος αυτός θα μπορεί να δει) με
+          τους συμμαθητές και τους φίλους του στα πλαίσια ενός υγιή
+          συναγωνισμού.
+        </p>
+        <p>Ακολουθεί ενδεικτική εικόνα από το εκπαιδευτικό παιχνίδι:</p>
+        <img src="images/game1.png" />
+        <img src="images/game2.png" />
+      </div>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+  </body>
+</html>
