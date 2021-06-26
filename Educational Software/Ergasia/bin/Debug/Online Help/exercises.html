@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="sidebar" id="mySidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <h1>Ενότητες</h1>
+      <ul>
+        <li><a href="login.html">Σύνδεση</a></li>
+        <li><a href="register.html">Εγγραφή</a></li>
+        <li><a href="studentDashboard.html">Μενού μαθητή</a></li>
+        <li><a href="lessons.html">Θεωρία</a></li>
+        <li><a href="exercises.html">Ασκήσεις</a></li>
+        <li><a href="game.html">Παιχνίδι</a></li>
+        <li><a href="studentProfile.html">Προφίλ μαθητή</a></li>
+        <li><a href="teacherDashboard.html">Μενού καθηγητή</a></li>
+        <li><a href="progress.html">Πρόοδος μαθητή</a></li>
+        <li><a href="teacherProfile.html">Προφίλ καθηγητή</a></li>
+        <li><a href="exit.html">Έξοδος</a></li>
+      </ul>
+    </div>
+    <div class="main" id="main">
+      <button class="openbtn" onclick="openNav()">☰ Περιεχόμενα</button>
+      <div class="panel">
+        <h1>Online βοήθεια της εφαρμογής</h1>
+        <h1>Ασκήσεις</h1>
+        <p>
+          Αναγκαία προϋπόθεση για να έχει πρόσβαση ο μαθητής σε επόμενα κεφάλαια
+          διδασκαλίας είναι να έχει καταγράψει άριστη επίδοση στα τεστ που του
+          παρέχονται από την εφαρμογή.
+        </p>
+        <img src="images/exercises1.png" />
+        <p>
+          Σε ένδειξη κάτω από το εκάστοτε τεστ αναγράφεται ο αριθμός των δοκιμών
+          που έχει κάνει ο χρήστης καθώς και ο καλύτερός του βαθμός. Με βάση την
+          επίδοσή του θα εμφανίζεται και ένα εικονίδιο - emoji.
+        </p>
+        <img src="images/exercises2.png" />
+        <p>
+          Τα τεστ αποτελούνται από ασκήσεις συμπλήρωσης του αριθμού που λείπει
+          από την εξίσωση.
+        </p>
+        <img src="images/exercises3.png" />
+        <p>
+          Στην περίπτωση που η απάντηση του χρήστη είναι σωστή θα ακούγεται ένας
+          χαρακτηριστικός ήχος, θα εμφανίζεται μία πράσινή ένδειξη και ο χρήστης
+          θα προχωράει στην επόμενη ερώτηση.
+        </p>
+        <img src="images/exercises4.png" />
+        <p>
+          Στη περίπτωση που ο μαθητής κάνει λάθος, θα εμφανίζεται το σωστό
+          αποτέλεσμα και μία κόκκινη ένδειξη και θα συνεχίζεται η ροή του τεστ.
+        </p>
+        <img src="images/exercises5.png" />
+        <p>
+          Τέλος, κατά την ολοκλήρωση του συνόλου των ασκήσεων θα εμφανίζεται
+          σχετικό μήνυμα.
+        </p>
+        <img src="images/exercises6.png" />
+      </div>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+  </body>
+</html>

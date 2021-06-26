@@ -1,0 +1,16 @@
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\bin\Debug\Ergasia.exe.config
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\bin\Debug\Ergasia.exe
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\bin\Debug\Ergasia.pdb
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\obj\Debug\Ergasia.csproj.AssemblyReference.cache
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\obj\Debug\Ergasia.Register.resources
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\obj\Debug\Ergasia.Properties.Resources.resources
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\obj\Debug\Ergasia.csproj.GenerateResource.cache
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\obj\Debug\Ergasia.csproj.CoreCompileInputs.cache
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\obj\Debug\Ergasia.exe
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\obj\Debug\Ergasia.pdb
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\obj\Debug\Ergasia.Login.resources
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\obj\Debug\Ergasia.StudentDashboard.resources
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\obj\Debug\Ergasia.Exercise.resources
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\obj\Debug\Ergasia.Lesson.resources
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\obj\Debug\Ergasia.Mistakes.resources
+C:\Users\pavlo\source\repos\Ergasia\Ergasia\obj\Debug\Ergasia.TeacherDashboard.resources
